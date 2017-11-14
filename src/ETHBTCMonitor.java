@@ -28,8 +28,7 @@ public class ETHBTCMonitor {
         	if (bidVol > 0){
         		Storage.ETHBTCbid = bidPrice;
         		Storage.ETHBTCbidVol = bidVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         	
         }
@@ -39,8 +38,7 @@ public class ETHBTCMonitor {
         	if (askVol > 0){
         		Storage.ETHBTCask = askPrice;
         		Storage.ETHBTCaskVol = askVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         }
 

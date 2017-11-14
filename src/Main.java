@@ -18,6 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+        	//TODO: weight advantage/disadvantage of multiple classes vs one class which puts data in hashmap, 
+        	//ex. consider hashing function time delay vs speed of setting pointer directly
         	Thread t1 = new Thread(new SpawnMonitor(BNBBTCMonitor.class, URI.create(URIbnbbtc)));
         	Thread t2 = new Thread(new SpawnMonitor(BNBETHMonitor.class, URI.create(URIbnbeth)));
         	Thread t3 = new Thread(new SpawnMonitor(ETHBTCMonitor.class, URI.create(URIethbtc)));

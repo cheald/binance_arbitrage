@@ -28,8 +28,7 @@ public class BNBETHMonitor {
         	if (bidVol > 0){
         		Storage.BNBETHbid = bidPrice;
         		Storage.BNBETHbidVol = bidVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         	
         }
@@ -39,8 +38,7 @@ public class BNBETHMonitor {
         	if (askVol > 0){
         		Storage.BNBETHask = askPrice;
         		Storage.BNBETHaskVol = askVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         }
 

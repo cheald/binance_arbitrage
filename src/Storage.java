@@ -1,7 +1,5 @@
 
 public class Storage {
-
-	static volatile long lastUpdate; //last time data was changed
 	
 	//BNB/BTC
 	static volatile float BNBBTCbid;

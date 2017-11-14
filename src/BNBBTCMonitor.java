@@ -29,8 +29,7 @@ public class BNBBTCMonitor {
         	if (bidVol > 0){
         		Storage.BNBBTCbid = bidPrice;
         		Storage.BNBBTCbidVol = bidVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         	
         }
@@ -40,8 +39,7 @@ public class BNBBTCMonitor {
         	if (askVol > 0){
         		Storage.BNBBTCask = askPrice;
         		Storage.BNBBTCaskVol = askVol;
-        		Storage.lastUpdate = timeStamp;
-        		Utils.checkRoutes();
+        		Utils.checkRoutes(timeStamp);
         	}
         }
 
