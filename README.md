@@ -4,13 +4,15 @@ The program uses Binance's websocket API to look for triangle arbitrage opportun
 
 It has been tested on Java 1.8 SE on MacOS. 
 
+In a Unix command line:
+
 To run the executable .jar included in the repo simply type ```java -jar bnbbtceth.jar``` after unzipping
 
 To build the project with Apache Maven (3.5.0):
 
-- unzip and navigate to the folder before typing ```mvn package```
+- unzip and navigate to the folder, execute ```mvn package```
 - navigate to /binance_arbitrage_master/target/
-- run Arbitrage-0.0.1-SNAPSHOT-jar-with-dependencies.jar as an executable .jar
+- run Arbitrage-0.0.1-SNAPSHOT-jar-with-dependencies.jar as an executable .jar, this is the "fat jar" with everything you need
 
 You will know the program is working if it starts printing currency-swap information after a few moments.
 
