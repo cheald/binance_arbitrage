@@ -118,7 +118,7 @@ public class Utils {
 				System.out.println("ETHBTCask" + Storage.ETHBTCask);
 				System.out.println("ETHBTCaskVol" + Storage.ETHBTCaskVol);
 			} else {
-//				System.out.println(A + "->" + B + "->" + C + "->" + A + " losing yield:" + (amountAFinal / amountA));
+				System.out.println(A + "->" + B + "->" + C + "->" + A + " losing yield:" + (amountAFinal / amountA));
 			}
 		} 	
 		
