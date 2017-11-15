@@ -103,20 +103,20 @@ public class Utils {
 				System.out.println("Discovered at " + sdf.format( new Date(timeStamp)) + "\n");
 				
 				//for testing differences
-				System.out.println("BNBBTCbid" + Storage.BNBBTCbid);
-				System.out.println("BNBBTCbidVol" + Storage.BNBBTCbidVol);
-				System.out.println("BNBBTCask" + Storage.BNBBTCask);
-				System.out.println("BNBBTCaskVol" + Storage.BNBBTCaskVol);
-				
-				System.out.println("BNBETHbid" + Storage.BNBETHbid);
-				System.out.println("BNBETHbidVol" + Storage.BNBETHbidVol);
-				System.out.println("BNBETHask" + Storage.BNBETHask);
-				System.out.println("BNBETHaskVol" + Storage.BNBETHaskVol);
-				
-				System.out.println("ETHBTCbid" + Storage.ETHBTCbid);
-				System.out.println("ETHBTCbidVol" + Storage.ETHBTCbidVol);
-				System.out.println("ETHBTCask" + Storage.ETHBTCask);
-				System.out.println("ETHBTCaskVol" + Storage.ETHBTCaskVol);
+//				System.out.println("BNBBTCbid" + Storage.BNBBTCbid);
+//				System.out.println("BNBBTCbidVol" + Storage.BNBBTCbidVol);
+//				System.out.println("BNBBTCask" + Storage.BNBBTCask);
+//				System.out.println("BNBBTCaskVol" + Storage.BNBBTCaskVol);
+//				
+//				System.out.println("BNBETHbid" + Storage.BNBETHbid);
+//				System.out.println("BNBETHbidVol" + Storage.BNBETHbidVol);
+//				System.out.println("BNBETHask" + Storage.BNBETHask);
+//				System.out.println("BNBETHaskVol" + Storage.BNBETHaskVol);
+//				
+//				System.out.println("ETHBTCbid" + Storage.ETHBTCbid);
+//				System.out.println("ETHBTCbidVol" + Storage.ETHBTCbidVol);
+//				System.out.println("ETHBTCask" + Storage.ETHBTCask);
+//				System.out.println("ETHBTCaskVol" + Storage.ETHBTCaskVol);
 			} else {
 				System.out.println(A + "->" + B + "->" + C + "->" + A + " losing yield:" + (amountAFinal / amountA));
 			}
